@@ -1,0 +1,96 @@
+.firstPage {
+    position: relative;
+    float: left;
+    background: url('../img/firstPage/bg.jpg') no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1070px;
+}
+/* 上左图 */
+.firstPage .pic-top-left {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 366px;
+    height: 71px;
+    transition: 1.5s linear 0.5s;
+    animation: pic-top-left 1.5s;
+}
+/* 上中图 */
+.firstPage .pic-top-mid {
+    position: absolute;
+    top: 8px;
+    left: 430px;
+    width: 678px;
+    height: 13px;
+    transition: 1.5s linear 3s;
+    animation: pic-top-left 4.5s;
+}
+/* 上右图 */
+.firstPage .pic-top-right {
+    position: absolute;
+    top: 27px;
+    right: 12px;
+    width: 152px;
+    height: 68px;
+    cursor: pointer;
+}
+/* 下中箭头 */
+.firstPage .pic-bot-mid-btn {
+    position: absolute;
+    top: 650px;
+    left: 745px;
+    width: 74px;
+    height: 78px;
+    cursor: pointer;
+    transition: 3s liner 1s;
+    animation: pic-bot-mid-btn 3s infinite;
+}
+/* 下右图 */
+.firstPage .pic-bot-right {
+    top: 380px;
+    right: 200px;
+    position: absolute;
+    width: 477px;
+    height: 245px;
+    /* transition: 1.5s linear 1s;
+    animation: pic-top-left 2.5s; */
+}
+/* 下右按钮 */
+.firstPage .pic-bot-right-btn {
+    position: absolute;
+    top: 480px;
+    right: 540px;
+    width: 100px;
+    height: 106px;
+    cursor: pointer;
+    /* opacity: 0%; */
+    animation: pic-bot-right-btn-scale 3s ease 2.5s infinite;
+}
+#main {
+    position: relative;
+    /* top: 150px; */
+    width: 1518px;
+    height: 803px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1000;
+}
+#vido {
+    position: absolute;
+    top: 160px;
+    left: 460px;
+    width: 600px;
+    height: 340px;
+    margin: 0 auto;
+}
+/* 下中屏 */
+.firstPage .pic-bot-all {
+    position: absolute;
+    top: 720px;
+    left: 0;
+    width: 100%;
+    height: 570px;
+    z-index: 90;
+}

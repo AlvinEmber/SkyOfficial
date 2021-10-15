@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 6000px;
+    background-color: pink;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.sideBarBtn {
+    position: fixed;
+    z-index: 99;
+    right: 180px;
+    top: 170px;
+    height: 77.5px;
+    width: 32px;
+    background-image: url('../img/sideBar/btn.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: 0.5s linear 0s;
+}
+.sideBarBtnOpen {
+    position: fixed;
+    z-index: 99;
+    right: 15px;
+    top: 170px;
+    height: 77.5px;
+    width: 32px;
+    background-image: url('../img/sideBar/btn-open.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: 0.5s linear 0s;
+}
+
+.sideBar {
+    position: fixed;
+    z-index: 99;
+    top: 150px;
+    right: 0px;
+    width: 180px;
+    height: 500px;
+    background-color: greenyellow;
+    background: url('../img/sideBar/bg.png') no-repeat;
+    background-size: 100%;
+    transition: 0.5s linear 0s;
+}
+.sideBarOpen {
+    position: fixed;
+    z-index: 99;
+    top: 150px;
+    right: -160px;
+    width: 180px;
+    height: 500px;
+    background-color: greenyellow;
+    background: url('../img/sideBar/bg.png') no-repeat;
+    background-size: 100%;
+    transition: 0.5s linear 0s;
+}
+
+.sideBar .pic01-span {
+    width: 117px;
+    height: 117px;
+    float: left;
+    margin: 28px 10px 0px 32px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.sideBar .pic01-span img {
+    width: 107px;
+    height: 107px;
+    margin: 5px 5px;
+}
+
+.sideBar .sideBar-text {
+    float: left;
+    width: 92px;
+    height: 27px;
+    margin-left: 45px;
+}
+
+.sideBar .pic02-span {
+    width: 117px;
+    height: 117px;
+    float: left;
+    margin: 0px 10px 0px 32px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.sideBar .sideBar-pic03 {
+    float: left;
+    width: 117px;
+    height: 36.5px;
+    margin-left: 32px;
+    margin-bottom: 5px;
+}
+
+.sideBar .sideBar-pic05 {
+    float: left;
+    width: 63.5px;
+    height: 63.5px;
+    margin-left: 32px;
+}
+.sideBar .sideBar-pic06 {
+    float: left;
+    width: 50px;
+    height: 63.5px;
+    margin-left: 5px;
+}

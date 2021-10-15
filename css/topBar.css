@@ -1,0 +1,204 @@
+/* 顶部整体 */
+.topBar {
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+/* 游戏全目录 */
+.topBar .gameIndex {
+    position: relative;
+    float: left;
+    width: 179px;
+    height: 54px;
+    border-right: 1px solid #ccc;
+    /* border-bottom: 1px solid #fff; */
+    background-color: #CF1132;
+}
+.topBar .gameIndex:hover {
+    background-color: #CE2845;
+}
+
+/* 游戏全目录 图标部分 */
+.topBar .gameIndex .gameIndex_logo {
+    /* float: left; */
+    margin-top: 21px;
+    margin-left: 40px;
+    width: 25px;
+    height: 11px;
+    margin-right: 8px;
+    display: inline-block;
+    background: url(../img/icon/sprite.png) -90px -306px no-repeat ;
+}
+/* 游戏全目录 标题部分 */
+.topBar .gameIndex .gameIndex_title {
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+}
+
+.topBar .gameList {
+    z-index: 100;
+    position: absolute;
+    display: none;
+    top: 55px;
+    left: 0;
+    width: 1518px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* opacity: 70%; */
+}
+
+.topBar .gameList .gameList_content {
+    width: 84%;
+    height: 500px;
+    margin: 0 8%;
+}
+.topBar .gameList .gameList_content h4 {
+    font-size: 14px;
+    color: #BC2E2E;
+    background-color: rgba(226, 226, 226, 0.3);
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    text-align: left;
+    padding-left: 20px;
+}
+/* 游戏全目录内容 左侧内容 */
+.topBar .gameList .gameList_content .gameList_content_left {
+    float: left;
+    width: 298px;
+    height: 500px;
+    border-right: 1px solid rgba(220, 220, 220, 0.35);
+    position: relative;
+}
+.gameList .gameList_content_left .more {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    top: 164px;
+    right: 0;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    background-color: #bc2e2e;
+    text-align: left;
+    width: 20px;
+    height: 95px;
+}
+.gameList .gameList_content_mid .more02 {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    top: 164px;
+    right: 1px;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    background-color: #bc2e2e;
+    text-align: left;
+    width: 20px;
+    height: 95px;
+}
+.gameList ul {
+    float: left;
+    padding-left: 20px;
+    height: 460px;
+    border-right: 1px solid rgba(220, 220, 220, 0.35);
+}
+.gameList ul h6 {
+    color: #626262;
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+}
+.gameList ul li {
+    width: 100%;
+    color: #626262;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    cursor: pointer;
+    text-align: left;
+}
+.gameList ul li .no1 {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon/sprite.png') no-repeat;
+    background-position: right -267px;
+}
+.gameList ul li .hot {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon/sprite.png')no-repeat;
+    background-position: right -144px;
+}
+.gameList ul li .new {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon/sprite.png')no-repeat;
+    background-position: right -206px;
+}
+.gameList ul li:hover {
+    color: #CF1132;
+}
+
+/* 游戏全目录内容 中部内容 */
+.topBar .gameList .gameList_content .gameList_content_mid {
+    position: relative;
+    float: left;
+    width: 828px;
+    height: 500px;
+    /* border-right: 1px solid #ccc; */
+}
+/* 游戏全目录内容 右部内容 */
+.topBar .gameList .gameList_content .gameList_content_right {
+    float: left;
+    width: 148px;
+    height: 500px;
+    /* border-right: 1px solid #ccc; */
+}
+.topBar .gameList .gameList_content .gameList_content_right .minilogo {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #CF1132;
+    text-align: left;
+}
+.topBar .gameList .gameList_content .gameList_content_right .minilogo i {
+    width: 23px;
+    height: 18px;
+    background: url('../img/icon/sprite.png') 0 -338px no-repeat;
+    float: left;
+    margin-top: 5px;
+    opacity: 80%;
+}
+
+/* 中部网易游戏logo */
+.topBar .netLogo {
+    width: 133px;
+    height: 44px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 510px;
+    cursor: pointer;
+}
+
+
+/* 右侧广告部分 */
+.topBar .addcell {
+    margin-left: 552px;
+    float: right;
+    height: 54px;
+    width: 138px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 54px;
+    color: #626262;
+}

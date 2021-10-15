@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《光·遇》官网- 光是遇见 就很美好</title>
+    <link rel="icon" href="img\icon\星星.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="./js/jQuery.min.js"></script>
+    <!-- <script>
+        $(function () {
+            var animeTop = $('.fourthPage').offset().top;
+            $(window).scroll(function () {
+                if ($(document).scrollTop() >= animeTop) {
+                    alert(11);
+                }
+            })
+        })
+    </script> -->
+</head>
+
+<body>
+    <!-- 侧边栏 -->
+    <div class="sideBarBtn"></div>
+    <div class="sideBar">
+        <span class="pic01-span">
+            <img src="./img/sideBar/pic01.png" alt="">
+        </span>
+        <img class="sideBar-text" src="./img/sideBar/pic01-text.png" alt="">
+        <img class="pic02-span" src="./img/sideBar/pic02.png" alt="">
+        <img class="sideBar-text" src="./img/sideBar/pic02-text.png" alt="">
+        <img class="sideBar-pic03" src="./img/sideBar/pic03.png" alt="">
+        <img class="sideBar-pic03" src="./img/sideBar/pic04.png" alt="">
+        <img class="sideBar-pic05" src="./img/sideBar/pic05.png" alt="">
+        <img class="sideBar-pic06" src="./img/sideBar/pic06.png" alt="">
+    </div>
+    <script src="./js/body/sideBar.js"></script>
+    <!-- 页面顶部网易游戏 topBar -->
+    <link rel="stylesheet" href="./css/topBar.css">
+    <!-- topBar整体 -->
+    <div class="topBar">
+        <!-- 左侧游戏目录 gameIndex -->
+        <div class="gameIndex">
+            <i class="gameIndex_logo"></i>
+            <i class="gameIndex_title">游戏全目录</i>
+            <!-- 下拉游戏菜单gamelist -->
+            <div class="gameList">
+                <div class="gameList_content">
+                    <!-- 左 -->
+                    <div class="gameList_content_left">
+                        <!-- 标题 -->
+                        <h4 style="width: 278px;">客户端游戏</h4>
+                        <!-- 内容 -->
+                        <ul style="border-right: none;">
+                            <!-- 内容标题 -->
+                            <h6>角色扮演</h6>
+                            <li>梦幻西游电脑版<i class="no1"></i></li>
+                            <li>大话2经典版<i class="hot"></i></li>
+                            <li>天下3<i class="hot"></i></li>
+                            <li>新倩女幽魂<i class="hot"></i></li>
+                            <li>逆水寒<i class="hot"></i></li>
+                            <li>天谕</li>
+                            <li>EVE Online</li>
+                            <li>超激斗梦境<i class="hot"></i></li>
+                            <li>龙魂时刻</li>
+                            <li>泰亚史诗<i class="hot"></i></li>
+                            <li>永劫无间<i class="hot"></i></li>
+                            <li>大话2免费版<i class="hot"></i></li>
+                            <li>新大话3经典版</li>
+                            <li>新大话3免费版</li>
+                            <li>镇魔曲</li>
+                            <li>镇魔曲页游</li>
+                            <li>大唐无双</li>
+                        </ul>
+                        <!-- 内容2 -->
+                        <ul style="width: 113px;border-right: none;">
+                            <!-- 内容标题 -->
+                            <h6>竞技/休闲</h6>
+                            <li>我的世界<i class="new"></i></li>
+                            <li>守望先锋<i class="new"></i></li>
+                            <li>荒野行动Plus<i class="new"></i></li>
+                            <li>战意<i class="new"></i></li>
+                            <li>秘境对决<i class="new"></i></li>
+                            <li>风暴英雄</li>
+                            <li>星际争霸Ⅱ</li>
+                            <li>炉石传说</li>
+                        </ul>
+                        <span class="more">更多热门端游</span>
+                    </div>
+                    <!-- 中 -->
+                    <div class="gameList_content_mid">
+                        <h4 style="width: 807px;">手机游戏</h4>
+                        <ul style="border-right: none;">
+                            <ul style="width: 130px; padding-left: 0px;">
+                                <h6>热门推荐</h6>
+                                <li>梦幻西游手游<i class="hot"></i></li>
+                                <li>大话西游手游<i class="hot"></i></li>
+                                <li>倩女幽魂手游<i class="hot"></i></li>
+                                <li>阴阳师<i class="hot"></i></li>
+                                <li>率土之滨<i class="hot"></i></li>
+                                <li>天下手游<i class="hot"></i></li>
+                                <li>镇魔曲手游<i class="hot"></i></li>
+                                <li>一梦江湖<i class="hot"></i></li>
+                                <li>决战！平安京<i class="hot"></i></li>
+                                <li>明日之后<i class="hot"></i></li>
+                                <li>荒野行动<i class="hot"></i></li>
+                                <li>第五人格<i class="hot"></i></li>
+                                <li>神都夜行录<i class="hot"></i></li>
+                                <li>实况足球</li>
+                                <li>终结战场</li>
+                                <li>我的世界Minecraft</li>
+                                <li>大唐无双唯美篇</li>
+                            </ul>
+                            <ul style="width: 655px;border-right: none;">
+                                <ul style="width: 120px;padding-left: 0px;border-right: none;">
+                                    <h6>新品推荐</h6>
+                                    <li>哈利波特<i class="new"></i></li>
+                                    <li>漫威超级战争<i class="new"></i></li>
+                                    <li>忘川风华录<i class="new"></i></li>
+                                    <li>天谕手游<i class="new"></i></li>
+                                    <li>游戏王：决斗链接<i class="new"></i></li>
+                                    <li>无尽的拉格朗日<i class="new"></i></li>
+                                    <li>星海求生<i class="new"></i></li>
+                                    <li>月神的迷宫<i class="new"></i></li>
+                                    <li>机动都市阿尔法<i class="new"></i></li>
+                                    <li>冰汽时代手游<i class="new"></i></li>
+                                    <li>漫威对决<i class="new"></i></li>
+                                    <li>战三国 八阵奇谋<i class="new"></i></li>
+                                    <li>幻书启世录<i class="new"></i></li>
+                                    <li>跑跑狼人杀<i class="new"></i></li>
+                                    <li>黑潮之上<i class="new"></i></li>
+                                    <li>阴阳师：妖怪屋<i class="new"></i></li>
+                                    <li>时空中的绘旅人<i class="new"></i></li>
+                                </ul>
+                                <ul style="width: 120px;border-right: none;padding-left: 10px;">
+                                    <li style="margin-top: 40px;">宝可梦大冒险<i class="new"></i></li>
+                                    <li>猎手之王<i class="new"></i></li>
+                                    <li>梦幻西游三维版<i class="new"></i></li>
+                                    <li>绿茵信仰<i class="new"></i></li>
+                                    <li>绝对演绎<i class="new"></i></li>
+                                    <li>泯灭效应<i class="new"></i></li>
+                                    <li>代号：ATLAS<i class="new"></i></li>
+                                    <li>重装上阵<i class="new"></i></li>
+                                    <li>阴阳师：妖怪小班<i class="new"></i></li>
+                                    <li>花与剑<i class="new"></i></li>
+                                    <li>邪神<i class="new"></i></li>
+                                    <li>弹幕枪王<i class="new"></i></li>
+                                    <li>光·遇<i class="new"></i></li>
+                                    <li>零号任务<i class="new"></i></li>
+                                    <li>洪荒文明<i class="new"></i></li>
+                                    <li>海岛纪元<i class="new"></i></li>
+                                    <li>梦幻西游网页版<i class="new"></i></li>
+                                </ul>
+                                <ul style="width: 120px;border-right: none;padding-left: 10px;">
+                                    <li style="margin-top: 40px;">风云岛行动</li>
+                                    <li>超凡先锋</li>
+                                    <li>代号：诸神黄昏</li>
+                                    <li>一起优诺</li>
+                                    <li>代号：OIP</li>
+                                    <li>代号·世界</li>
+                                    <li>阴阳师：百闻牌</li>
+                                    <li>轩辕剑龙舞云山</li>
+                                    <li>王牌竞速</li>
+                                    <li>量子特攻</li>
+                                    <li>伊格效应</li>
+                                    <li>遇见逆水寒</li>
+                                    <li>陈情令</li>
+                                    <li>堡垒前线</li>
+                                    <li>第九所</li>
+                                    <li>河狸计划</li>
+                                    <li>暗黑破坏神：不朽</li>
+                                </ul>
+                                <ul style="width: 120px;border-right: none;padding-left: 10px;">
+                                    <li style="margin-top: 40px;">绘真·妙笔千山</li>
+                                    <li>流星群侠传</li>
+                                    <li>有杀气童话2</li>
+                                    <li>完售物语</li>
+                                    <li>青璃</li>
+                                    <li>孤岛先锋</li>
+                                    <li>逗斗火柴人</li>
+                                    <li>节奏空间</li>
+                                    <li>隐世录</li>
+                                    <li>荒野潜伏者</li>
+                                    <li>绿茵之巅</li>
+                                    <li>迷室The Room</li>
+                                    <li>永远的7日之都</li>
+                                    <li>实况：王者集结</li>
+                                    <li>战舰世界闪击战</li>
+                                    <li>坦克世界闪击战</li>
+                                    <li>战争怒吼</li>
+                                </ul>
+                                <ul style="width: 120px;border-right: none;padding-left: 10px;">
+                                    <li style="margin-top: 40px;">三国诛将传</li>
+                                    <li>极客战记(教育类)</li>
+                                    <li>权力与纷争</li>
+                                    <li>非人学园</li>
+                                    <li>战国志</li>
+                                    <li>边境之旅</li>
+                                    <li>星战前夜·无烬星河</li>
+                                    <li>三国如龙传</li>
+                                    <li>光明大陆</li>
+                                    <li>网易棋牌</li>
+                                    <li>风暴对决</li>
+                                    <li>猎魂觉醒</li>
+                                    <li>狼人杀</li>
+                                    <li>魔法禁书目录</li>
+                                    <li>秘境对决</li>
+                                    <li>影之诗</li>
+                                    <li>潮人篮球</li>
+                                </ul>
+                            </ul>
+                        </ul>
+                        <span class="more02">更多热门手游</span>
+                    </div>
+                    <!-- 右 -->
+                    <div class="gameList_content_right">
+                        <h4 style="width: 128px;">游戏辅助</h4>
+                        <ul style="width: 128px;border-right: none;">
+                            <li style="margin-top: 10px;">商品防伪查询<i class="new"></i></li>
+                            <li>网易云游戏<i class="new"></i></li>
+                            <li>网易MuMu<i class="hot"></i></li>
+                            <li>会员俱乐部<i class="hot"></i></li>
+                            <li>网易大神<i class="new"></i></li>
+                            <li>网易BUFF<i class="new"></i></li>
+                            <li>网易游戏印象</li>
+                            <li>网易游戏助手<i class="new"></i></li>
+                            <li>易次元<i class="hot"></i></li>
+                            <li>手机将军令</li>
+                            <li>将军令</li>
+                            <li>藏宝阁</li>
+                            <li>网易CC</li>
+                            <li>自助百宝箱</li>
+                            <li>网易UU加速器</li>
+                            <li>客服中心</li>
+                            <li class="minilogo"><i></i>网易游戏</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/topBar/gameIndex.js"></script>
+        <!-- 中部网易游戏图标 netLogo -->
+        <img class="netLogo" src="./img/topBar/logo.png" alt="">
+        <!-- 右侧广告部分 add -->
+        <div class="addcell"></div>
+        <script src="./js/topBar/addcell.js"></script>
+    </div>
+
+    <!-- 第一页 firstPage -->
+    <link rel="stylesheet" href="./css/firstPage.css">
+    <div class="firstPage">
+        <img class="pic-top-left" src="./img/firstPage/pic-top-left.png" alt="">
+        <img class="pic-top-mid" src="./img/firstPage/pic-top-mid.png" alt="">
+        <img class="pic-top-right" src="./img/firstPage/pic-top-right.png" alt="">
+        <div style="transition: 1.5s linear 1s;
+        animation: pic-top-left 2.5s;">
+            <img class="pic-bot-right" src="./img/firstPage/pic-bot-right.png" alt="">
+            <img onclick="open_video()" class="pic-bot-right-btn" src="./img/firstPage/pic-bot-right-btn.png" alt="">
+        </div>
+        <div id="main">
+            <div id="vido" class="">
+                <video width="600" height="340" controls>
+                    <source src="./video/vido.mp4" type="video/mp4">
+                </video>
+            </div>
+            <script src="./js/firstPage/vido.js"></script>
+        </div>
+        <img class="pic-bot-mid-btn" src="./img/firstPage/pic-bot-mid-btn.png" alt="">
+        <script src="./js/firstPage/btn.js"></script>
+        <img class="pic-bot-all" src="./img/firstPage/pic-bot-all.png" alt="">
+    </div>
+
+    <!-- 第二页 secondPage -->
+    <link rel="stylesheet" href="./css/secondPage.css">
+    <div class="secondPage">
+        <div class="carousel">
+            <ul class="banner-list">
+                <li><img src="./img/secondPage/migong.jpg" alt=""></li>
+                <li><img src="./img/secondPage/gongdian.jpg" alt=""></li>
+                <li><img src="./img/secondPage/shengdao.jpg" alt=""></li>
+                <li><img src="./img/secondPage/yulin.jpg" alt=""></li>
+                <li><img src="./img/secondPage/xiagu.jpg" alt=""></li>
+                <li><img src="./img/secondPage/shamo.jpg" alt=""></li>
+                <li><img src="./img/secondPage/chongsheng.jpg" alt=""></li>
+            </ul>
+            <img class="walk" src="./img/secondPage/walk.png" alt="">
+            <!-- 左按钮 -->
+            <a href="javascript:;" id="leftbtn" class="leftbtn"></a>
+            <!-- 右按钮 -->
+            <a href="javascript:;" id="rightbtn" class="rightbtn"></a>
+            <!-- 小圆圈 -->
+            <ol class="circle"></ol>
+
+            <script src="./js/secondPage/animate.js"></script>
+            <script src="./js/secondPage/sildeshow.js"></script>
+        </div>
+
+        <img class="botpic" src="./img/secondPage/botpic.png" alt="">
+    </div>
+    <!-- 第三页 thirdPage -->
+    <link rel="stylesheet" href="./css/thirdPage.css">
+    <div class="thirdPage">
+        <img class="pic-bot-mid-btn02" src="./img/firstPage/pic-bot-mid-btn.png" alt="">
+        <script src="./js/thirdPage/btn.js"></script>
+        <img class="pic-bot-all" src="./img/thirdPage/pic-bot-all.png" alt="">
+    </div>
+
+
+    <!-- 第四页 fourthPage -->
+    <link rel="stylesheet" href="./css/fourthPage.css">
+    <div class="fourthPage">
+        <video muted loop class="bgvid01" id="bgvid01">
+            <source src="./img/fourthPage/bg02.mp4" type="video/mp4">
+        </video>
+        <video class="bgvid" id="bgvid">
+            <source src="./img/fourthPage/bg01.mp4" type="video/mp4">
+        </video>
+        <div class="newsbox">
+            <div class="newsbox-title"></div>
+            <div class="newsbox_main">
+                <div class="main_guide">
+                    <ul class="guideList">
+                        <li style="border-top-left-radius: 7px;border-bottom-left-radius: 7px;">最新</li>
+                        <li>新闻</li>
+                        <li style="border-top-right-radius: 7px;border-bottom-right-radius: 7px;">公告</li>
+                    </ul>
+                </div>
+                <div class="main_content">
+                    <hr>
+                    <div>
+                        <img src="./img/fourthPage/news1.png" alt="">
+                        <h3>2021-10-12</h3>
+                        <h2>全新奇妙之旅：风行季 即将开启《光·遇》10月14日 更新内容公告</h2>
+                        <h6 class="mh6">全新奇妙之旅：风行季 即将开启《光·遇》10月14日 更新内容公告</h6>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="./img/fourthPage/news2.png" alt="">
+                        <h3>2021-10-12</h3>
+                        <h2>王国之约，初秋相聚| 《光·遇》CICAF参展回顾</h2>
+                        <h6 class="mh6">王国之约，初秋相聚| 《光·遇》CICAF参展回顾</h6>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="./img/fourthPage/news3.png" alt="">
+                        <h3>2021-10-11</h3>
+                        <h2>《光·遇》10月14日 更新时间公告</h2>
+                        <h6 class="mh6">《光·遇》10月14日 更新时间公告</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="pic-bot-mid-btn03" src="./img/firstPage/pic-bot-mid-btn.png" alt="">
+    </div>
+    <script src="./js/fourthPage/startanime.js"></script>
+
+    <!-- 第五页 fifthPage -->
+    <link rel="stylesheet" href="./css/fifthPage.css">
+    <div class="fifthPage">
+        <!-- 标题图片 -->
+        <img class="fiveTitle" src="./img/fifthPage/title.png" alt="">
+        <!-- 主内容 -->
+        <div class="fiveList">
+            <ul class="fiveList_ul">
+                <li>星海巡航，为你而来 | 《光•遇》小王子季 创作理念分享</li>
+                <li>全新奇妙之旅：风行季 即将开启《光•遇》10月14日 更新内容公告</li>
+                <li>王国之约，初秋相聚 | 《光•遇》CICAF参展回顾</li>
+                <li>《光•遇》10月14日 更新时间公告</li>
+                <li>月华流照，灯火寄愿 《光·遇》心火传递活动 奖励发放公告</li>
+                <li>《光·遇》9月27日 中国国际漫画节动漫游戏展取消公告</li>
+            </ul>
+        </div>
+        <!-- 小轮播图 -->
+        <div class="fiveSlide">
+            <img id="fiveSlidePic" src="./img/fifthPage/show01.jpg" alt="">
+        </div>
+        <script src="./js/fifthPage/fifthPage.js"></script>
+        <!-- 飞鸟图 -->
+        <div class="birds_news" data-mode="cursor"
+            style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            <i class="birds_1">
+                <img class="layer" data-depth="0.2"
+                    src="https://sky.res.netease.com/pc/gw/20190508180113/img/birds_news_1_8b4408d.png" alt="鸟"
+                    style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(-10.399px, 0.235919px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </i>
+            <i class="birds_2">
+                <img class="layer" data-depth="0.3"
+                    src="https://sky.res.netease.com/pc/gw/20190508180113/img/birds_news_2_a319487.png" alt="鸟"
+                    style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-15.5986px, 0.353879px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </i>
+            <i class="birds_3">
+                <img class="layer" data-depth="0.35"
+                    src="https://sky.res.netease.com/pc/gw/20190508180113/img/birds_news_3_db449cc.png" alt="鸟"
+                    style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-18.1983px, 0.412859px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </i>
+            <i class="birds_4">
+                <img class="layer" data-depth="0.2"
+                    src="https://sky.res.netease.com/pc/gw/20190508180113/img/birds_news_4_20021a3.png" alt="鸟"
+                    style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-10.399px, 0.235919px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </i>
+            <i class="birds_5">
+                <img class="layer" data-depth="0.3"
+                    src="https://sky.res.netease.com/pc/gw/20190508180113/img/birds_news_5_902488a.png" alt="鸟"
+                    style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-15.5986px, 0.353879px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </i>
+        </div>
+    </div>
+
+    <!-- 底部声明栏 -->
+    <link rel="stylesheet" href="./css/bottomPage.css">
+    <div class="bottomPage">
+        <div class="bot_content">
+            <img style="margin-left: 230px;margin-top: 15px;" src="./img/icon/pic01.png" alt="">
+            <img style="margin-top: 15px;margin-right:3px;" src="./img/icon/pic02.png" alt="">
+            <img src="./img/icon/pic03.jpg" alt="">
+            <h6> <a href="http://gb.corp.163.com/gb/about/overview.html">公司简介</a> -
+                <a href="https://help.mail.163.com/service.html">客户服务</a> -
+                <a href="http://gb.corp.163.com/gb/legal.html">网易集团隐私政策及儿童个人信息保护规则</a> -
+                <a href="http://game.163.com/about/">网易游戏</a> -
+                <a href="http://game.163.com/contact/business.html">联系我们</a> -
+                <a href="http://game.163.com/contact/business.html">商务合作</a> -
+                <a href="https://hr.game.163.com/index.html">加入我们</a>
+                <br>
+                网易公司版权所有 ©1997-2021
+                本游戏适合8岁以上的玩家进入
+            </h6>
+        </div>
+    </div>
+</body>
+
+</html>
