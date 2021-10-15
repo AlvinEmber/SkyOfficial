@@ -68,6 +68,7 @@
     animation: pic-bot-right-btn-scale 3s ease 2.5s infinite;
 }
 #main {
+    /* display: none; */
     position: relative;
     /* top: 150px; */
     width: 1518px;
@@ -78,6 +79,7 @@
     z-index: 1000;
 }
 #vido {
+    /* display: none; */
     position: absolute;
     top: 160px;
     left: 460px;
